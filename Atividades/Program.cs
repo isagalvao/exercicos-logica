@@ -28,6 +28,7 @@ namespace Atividades
             Console.WriteLine("(10) - Informe x valores e diremos qual é o maior e qual é o menor:");
             Console.WriteLine("(11) - Informe x valores mostraremos em ordem decrescente: ");
             Console.WriteLine("(12) - Reajuste Salarial Organizações Tabajara:");
+            Console.WriteLine("(12) - Calcular a média de aproveitamento dos alunos:");
 
             short option = short.Parse(Console.ReadLine());
 
@@ -46,6 +47,7 @@ namespace Atividades
                 case 10: MenuMaiorMenor(); break;
                 case 11: MenuOrdenaValores(); break;
                 case 12: MenuReajusteSalarial(); break;
+                case 13: MenuMediaAproveitamento(); break;
                 default: Menu(); break;
             }
 
@@ -191,6 +193,18 @@ namespace Atividades
                 Console.WriteLine("------------------------------------------------------");
                 Console.WriteLine("-- informe o valor do salário do funcionário e iremos realizar o reajuste --");
                 ReajusteSalarial.VerificaReajusteSalarial();
+                Console.WriteLine("");
+                Menu();
+            }
+
+            //Exercicio 13
+            static void MenuMediaAproveitamento()
+            {
+
+                Console.Clear();
+                Console.WriteLine("------------------------------------------------------");
+                Console.WriteLine("-- Digite duas notas e informaremos o aproveitamento do aluno --");
+                
                 Console.WriteLine("");
                 Menu();
             }
