@@ -27,7 +27,7 @@ Este projeto foi iniciado com [C#]
 - [x] Informe três valores mostraremos em ordem decrescente
 - [x] Calculadora de reajuste Salarial (Organizações Tabajara);
 - [x] Calculadora de rendimento do aluno na materia X;
-- [x] caixa eletrônico;
+- [x] Caixa eletrônico;
 
 
 
