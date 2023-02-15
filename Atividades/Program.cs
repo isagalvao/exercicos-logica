@@ -29,6 +29,7 @@ namespace Atividades
             Console.WriteLine("(11) - Informe x valores mostraremos em ordem decrescente: ");
             Console.WriteLine("(12) - Reajuste Salarial Organizações Tabajara:");
             Console.WriteLine("(12) - Calcular a média de aproveitamento dos alunos:");
+            Console.WriteLine("(12) - Caixa eletrônico");
 
             short option = short.Parse(Console.ReadLine());
 
@@ -48,6 +49,7 @@ namespace Atividades
                 case 11: MenuOrdenaValores(); break;
                 case 12: MenuReajusteSalarial(); break;
                 case 13: MenuMediaAproveitamento(); break;
+                case 14: MenuCaixaEletrônico(); break;
                 default: Menu(); break;
             }
 
@@ -190,7 +192,7 @@ namespace Atividades
             {
 
                 Console.Clear();
-                Console.WriteLine("------------------------------------------------------");
+                Console.WriteLine("----------------------------------------------------------------------------");
                 Console.WriteLine("-- informe o valor do salário do funcionário e iremos realizar o reajuste --");
                 ReajusteSalarial.VerificaReajusteSalarial();
                 Console.WriteLine("");
@@ -202,9 +204,22 @@ namespace Atividades
             {
 
                 Console.Clear();
-                Console.WriteLine("------------------------------------------------------");
+                Console.WriteLine("----------------------------------------------------------------");
                 Console.WriteLine("-- Digite duas notas e informaremos o aproveitamento do aluno --");
                 
+                Console.WriteLine("");
+                Menu();
+            }
+
+            //Exercicio 14
+            static void MenuCaixaEletrônico()
+            {
+               
+                Console.Clear();
+                Console.WriteLine("-------------------------------------------------");
+                Console.WriteLine("--------- Bem vindo ao Caixa Eletrônico ---------");
+                Console.WriteLine("-- Notas disponíveis: 1, 5, 10, 50 e 100 reais --");
+
                 Console.WriteLine("");
                 Menu();
             }
