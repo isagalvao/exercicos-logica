@@ -225,7 +225,7 @@ namespace Atividades
                 Console.WriteLine("-------------------------------------------------");
                 Console.WriteLine("--------- Bem vindo ao Caixa Eletrônico ---------");
                 Console.WriteLine("-- Notas disponíveis: 1, 5, 10, 50 e 100 reais --");
-
+                CaixaEletrônico.Caixa();
                 Console.WriteLine("");
                 Menu();
             }
