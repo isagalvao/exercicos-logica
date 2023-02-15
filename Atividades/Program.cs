@@ -19,15 +19,15 @@ namespace Atividades
             Console.WriteLine("(1) - Converter Metros em CM:");
             Console.WriteLine("(2) - Calculadora da área de um circulo:");
             Console.WriteLine("(3) - Calculadora da área de um quadrado:");
-            Console.WriteLine("(4) - Converter temperatuda  de *F em Celsius:");
+            Console.WriteLine("(4) - Conversor de temperatura *F em Celsius:");
             Console.WriteLine("(5) - Informe dois valores e verificamos qual é o maior:");
-            Console.WriteLine("(6) - Verificar se o valor é positivo ou negativo:");
+            Console.WriteLine("(6) - Verificador se o valor é positivo ou negativo:");
             Console.WriteLine("(7) - Verifica qual sexo foi informado:");
-            Console.WriteLine("(8) -  Calcular a média alcançada pelos alunos");
+            Console.WriteLine("(8) - Calculadora da média alcançada pelos alunos");
             Console.WriteLine("(9) - Informe três valores e diremos qual é o maior:");
             Console.WriteLine("(10) - Informe x valores e diremos qual é o maior e qual é o menor:");
-            Console.WriteLine("(11) - Informe x valores mostraremos em ordem decrescente: ");
-            Console.WriteLine("(12) - Reajuste Salarial Organizações Tabajara:");
+            Console.WriteLine("(11) - Informe x valores e mostraremos em ordem decrescente: ");
+            Console.WriteLine("(12) - Calculadora de reajuste salarial (Organizações Tabajara)");
             Console.WriteLine("(13) - Calcular a média de aproveitamento do aluno na materia X:");
             Console.WriteLine("(14) - Caixa eletrônico");
 
