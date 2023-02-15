@@ -28,8 +28,8 @@ namespace Atividades
             Console.WriteLine("(10) - Informe x valores e diremos qual é o maior e qual é o menor:");
             Console.WriteLine("(11) - Informe x valores mostraremos em ordem decrescente: ");
             Console.WriteLine("(12) - Reajuste Salarial Organizações Tabajara:");
-            Console.WriteLine("(12) - Calcular a média de aproveitamento dos alunos:");
-            Console.WriteLine("(12) - Caixa eletrônico");
+            Console.WriteLine("(13) - Calcular a média de aproveitamento do aluno na materia X:");
+            Console.WriteLine("(14) - Caixa eletrônico");
 
             short option = short.Parse(Console.ReadLine());
 
@@ -204,9 +204,15 @@ namespace Atividades
             {
 
                 Console.Clear();
-                Console.WriteLine("----------------------------------------------------------------");
-                Console.WriteLine("-- Digite duas notas e informaremos o aproveitamento do aluno --");
-                
+                Console.WriteLine("--------------------------------------------------------------------------");
+                Console.WriteLine("-- Digite duas notas e informaremos o aproveitamento do aluno na materia--");
+                Console.WriteLine("------- Média de Aproveitamento ------");
+                Console.WriteLine(" Entre 90 e 100 o aluno recebera  (A)");
+                Console.WriteLine(" Entre 75 e 90 o aluno recebera   (B)");
+                Console.WriteLine(" Entre 60 e 75 o aluno recebera   (C)");
+                Console.WriteLine(" Entre 40 e 60 o aluno recebera   (D)");
+                Console.WriteLine(" Entre 40 e zero o aluno recebera (E)");
+                MediaAproveitamento.VerificaMediaAproveitamento();
                 Console.WriteLine("");
                 Menu();
             }
