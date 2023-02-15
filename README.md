@@ -10,6 +10,7 @@ Este projeto foi iniciado com [C#]
 
 - [x] Criação das funcionalidades com C#;
 
+`Para utilizar o Menu, basta selecionar uma das opções!`
 `funcionalidades:`
 
 - [x] Converter Metros em CM;
@@ -27,7 +28,7 @@ Este projeto foi iniciado com [C#]
 - [x] Calcular a média de aproveitamento dos alunos;
 - [x] caixa eletrônico;
 
-`Para utilizar o Menu, basta selecionar uma das opções!`
+
 
 
 ## 🤝 Colaboradores
