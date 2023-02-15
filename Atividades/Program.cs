@@ -14,7 +14,7 @@ namespace Atividades
         static void Menu()
         {
 
-            Console.WriteLine("Bem vindo :) ! Selecione a uma das opções abaixo para avaliar:");
+            Console.WriteLine("Bem vindo :) ! Selecione a uma das opções abaixo:");
             Console.WriteLine("(0) - FINALIZAR");
             Console.WriteLine("(1) - Converter Metros em CM:");
             Console.WriteLine("(2) - Calculadora da área de um circulo:");
@@ -23,7 +23,7 @@ namespace Atividades
             Console.WriteLine("(5) - Informe dois valores e verificamos qual é o maior:");
             Console.WriteLine("(6) - Verificar se o valor é positivo ou negativo:");
             Console.WriteLine("(7) - Verifica qual sexo foi informado:");
-            Console.WriteLine("(8) - Calculadora da média alcançada pelos alunos");
+            Console.WriteLine("(8) - Calculadora da média alcançada pelos alunos:");
             Console.WriteLine("(9) - Informe três valores e diremos qual é o maior:");
             Console.WriteLine("(10) - Informe x valores e diremos qual é o maior e qual é o menor:");
             Console.WriteLine("(11) - Informe x valores e mostraremos em ordem decrescente: ");
