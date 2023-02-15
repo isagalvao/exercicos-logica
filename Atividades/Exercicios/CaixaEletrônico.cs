@@ -35,7 +35,7 @@ namespace Atividades.Exercicios
 
             Console.WriteLine("--------------------------------------------------");
             Console.WriteLine(" ");
-            Console.WriteLine("Quantidade de notas:");
+            Console.WriteLine("Quantidade de notas a receber:");
             Console.WriteLine();
             Console.WriteLine("Notas de 100R$:  " + n100);
             Console.WriteLine();
