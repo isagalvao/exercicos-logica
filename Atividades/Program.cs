@@ -14,7 +14,7 @@ namespace Atividades
         static void Menu()
         {
 
-            Console.WriteLine("Bem vindo Lucas :) ! Selecione a uma das opções abaixo para avaliar:");
+            Console.WriteLine("Bem vindo :) ! Selecione a uma das opções abaixo para avaliar:");
             Console.WriteLine("(0) - FINALIZAR");
             Console.WriteLine("(1) - Converter Metros em CM:");
             Console.WriteLine("(2) - Calculadora da área de um circulo:");
