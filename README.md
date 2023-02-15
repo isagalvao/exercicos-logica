@@ -27,6 +27,7 @@ Este projeto foi iniciado com [C#]
 - [x] Calcular a média de aproveitamento dos alunos;
 - [x] caixa eletrônico;
 
+`Para utilizar o Menu, basta selecionar uma das opções!`
 
 
 ## 🤝 Colaboradores
