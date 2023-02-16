@@ -1,5 +1,7 @@
 # exercicos-logica
 
+![Menu](https://user-images.githubusercontent.com/102769431/219422104-b585194c-7fa9-4898-a59f-bfba0a6a8d37.png)
+
 Este projeto foi iniciado com [C#]
 
 ### Você pode executar o sistema com:
